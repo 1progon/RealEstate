@@ -1,0 +1,24 @@
+@use "var";
+
+html {
+  height: 100%;
+
+  body {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
+
+    main {
+      flex: 1 1;
+    }
+
+    footer {
+      flex-basis: 200px;
+    }
+  }
+}
+
+
+
